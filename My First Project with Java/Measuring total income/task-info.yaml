@@ -77,6 +77,18 @@ files:
           }
       }
     learner_created: false
+  - name: src/calculator/pom.xml
+    visible: true
+    learner_created: true
+  - name: src/calculator/Shop.java
+    visible: true
+    learner_created: true
+  - name: src/calculator/Income.java
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/35120#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 25 Jan 2024 21:46:21 UTC"
 record: 2
