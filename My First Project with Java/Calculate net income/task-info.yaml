@@ -102,6 +102,52 @@ files:
           }
       }
     learner_created: false
+  - name: src/calculator/Shop.java
+    visible: true
+    text: |
+      package calculator;
+      
+      import java.util.HashMap;
+      import java.util.Map;
+      
+      public class Shop {
+          public Map<String, Double> prices() {
+              Map<String, Double> prices = new HashMap<>();
+              prices.put("Bubblegum", 2.0);
+              prices.put("Toffee", 0.2);
+              prices.put("Ice cream", 5.0);
+              prices.put("Milk chocolate", 4.0);
+              prices.put("Doughnut", 2.5);
+              prices.put("Pancake", 3.2);
+              return prices;
+          }
+      }
+    learner_created: true
+  - name: src/calculator/Income.java
+    visible: true
+    text: |
+      package calculator;
+      
+      import java.util.HashMap;
+      import java.util.Map;
+      
+      public class Income {
+          public Map<String, Double> calculateEarnings() {
+              Map<String, Double> earnings = new HashMap<>();
+              earnings.put("Bubblegum", 202.0);
+              earnings.put("Toffee", 118.0);
+              earnings.put("Ice cream", 2250.0);
+              earnings.put("Milk chocolate", 1680.0);
+              earnings.put("Doughnut", 1075.0);
+              earnings.put("Pancake", 80.0);
+              return earnings;
+          }
+      }
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/35121#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">Hyperskill</a>
+    to continue learning.
+  time: "Fri, 26 Jan 2024 09:51:29 UTC"
 record: 3

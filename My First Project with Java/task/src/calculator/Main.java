@@ -1,6 +1,7 @@
 package calculator;
 
 import java.util.Map;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,5 +18,16 @@ public class Main {
             totalEarnings += entry.getValue();
         }
         System.out.println("Income: $" + totalEarnings);
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Staff expenses:");
+        double staffExpenses = scanner.nextDouble();
+
+        System.out.println("Other expenses:");
+        double otherExpenses = scanner.nextDouble();
+
+        double netIncome = totalEarnings - staffExpenses - otherExpenses;
+        System.out.println("Net income: $" + netIncome);
     }
 }
